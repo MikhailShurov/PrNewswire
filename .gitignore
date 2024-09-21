@@ -2,3 +2,4 @@
 .venv
 **/__pychache__
 .git
+logs.log
