@@ -54,7 +54,5 @@ async def get_data():
                     await check_if_new_news_appears(await response.text(), request_started, request_finished)
 
 
-# ToDo replace with async logger
-
 if __name__ == '__main__':
     asyncio.run(get_data())
